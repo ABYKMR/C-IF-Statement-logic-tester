@@ -12,7 +12,7 @@ public static void Main()
     number1 = Convert.ToInt32(Console.ReadLine());// Read the first integer from the user
 
     Console.WriteLine("Enter operator: ");
-    string caseswitch = (Console.ReadLine();
+    string caseswitch = Console.ReadLine();
 
     Console.WriteLine("Enter second operand");
     int number2 = 2; // Choose the second number to add
