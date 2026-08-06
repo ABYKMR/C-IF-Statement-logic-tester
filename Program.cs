@@ -1,7 +1,8 @@
 ﻿
     //"Abbygail Martinez 7/7/2026 COP2360-001 Lab 1: Hello World Program"
-
-    using System.Expressions;
+using System;
+class Program
+{
 public static void Main()
 {
     Console.WriteLine("Addition Calcultion");
@@ -11,7 +12,7 @@ public static void Main()
     number1 = Convert.ToInt32(Console.ReadLine());// Read the first integer from the user
 
     Console.WriteLine("Enter operator: ");
-    strig caseswitch = (Console.ReadLine();
+    string caseswitch = (Console.ReadLine();
 
     Console.WriteLine("Enter second operand");
     int number2 = 2; // Choose the second number to add
@@ -21,6 +22,7 @@ public static void Main()
 
 
     switch (caseswitch)
+                         {
      case "+":
         sum = number1 + number2;
         Console.WriteLine("Result: " + sum);
@@ -40,4 +42,4 @@ public static void Main()
     default:
         Console.WriteLine("You did not enter a correct operator, no calculation was done.");
         break;
-    }
+    }}}
